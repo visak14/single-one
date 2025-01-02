@@ -16,7 +16,7 @@ import FilePondPluginImagePreview from 'filepond-plugin-image-preview';
 import FilePondPluginFileValidateType from 'filepond-plugin-file-validate-type';
 import 'filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css';
 import { v4 as uuid } from 'uuid';
-import { AudioRecorder } from 'react-audio-voice-recorder';
+// import { AudioRecorder } from 'react-audio-voice-recorder';
 import Pusher from 'pusher-js';
 import axios from 'axios';
 
@@ -314,7 +314,7 @@ export const ChatFooter: FC<ChatFooterProps> = ({ chatId, currentUserId }) => {
           </DialogContent>
         </Dialog>
 
-        {isDesktop && (
+        {/* {isDesktop && (
           <AudioRecorder
             onRecordingComplete={addAudioElement}
             audioTrackConstraints={{
@@ -323,7 +323,7 @@ export const ChatFooter: FC<ChatFooterProps> = ({ chatId, currentUserId }) => {
             }}
             downloadFileExtension='webm'
           />
-        )}
+        )} */}
       </form>
     </Form>
   );

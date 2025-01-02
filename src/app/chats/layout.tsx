@@ -7,7 +7,7 @@ type LayoutProps = {
 }
 const Layout:FC<LayoutProps> = ({children}) => {
     return<>
-    <div className=" hidden md:flex md:ml-24 px-2 md:px-0 h-dvh">
+    <div className=" hidden md:flex md:ml-24  px-2 md:px-0 h-dvh">
         <ChatsLayout>
             {children}
         </ChatsLayout>
