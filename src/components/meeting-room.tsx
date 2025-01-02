@@ -39,7 +39,7 @@ export const MeetingRoom: FC<{ chatId: string }> = ({ chatId }) => {
       audio={true}
       token={token}
       connect={true}
-      serverUrl={process.env.LIVEKIT_URL}
+      serverUrl={process.env.NEXT_PUBLIC_LIVEKIT_URL}
       data-lk-theme='default'
       style={{ height: '100dvh' }}
     >
