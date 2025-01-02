@@ -99,6 +99,7 @@ export const ChatFooter: FC<ChatFooterProps> = ({ chatId, currentUserId }) => {
         type: 'text',
         content: [content],
       });
+      form.reset({ content: '' });
     } catch (error) {
       console.log(error);
       toast.error(
